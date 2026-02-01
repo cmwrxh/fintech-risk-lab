@@ -15,12 +15,21 @@
 ---
 
 ## Overview
-This repo is a practical lab for building risk analytics: simple credit scoring baselines, fraud heuristics,
-and clear documentation around how metrics are computed. The focus is reproducibility, readable code, and
-SQL-first thinking (Oracle-friendly).
+This repo is a practical lab for building risk analytics: simple credit scoring baselines,
+fraud heuristics, and clear documentation around how metrics are computed.
+The focus is reproducibility, readable code, and SQL-first thinking (Oracle-friendly).
+
+---
 
 ## Tech Stack
 - **Languages:** Python, SQL
 - **Database mindset:** Oracle-style schema design
-- **Docs:** GitHub Pages (`/
-::contentReference[oaicite:0]{index=0}
+- **Docs:** GitHub Pages (`/docs`)
+
+---
+
+## Quickstart
+```bash
+python -m venv .venv
+# activate the venv, then:
+python src/run_demo.py
