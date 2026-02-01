@@ -1,0 +1,9 @@
+customer_id,amount,txn_type,channel,txn_time
+1001,2500,deposit,mobile,2026-01-10
+1001,-800,withdrawal,atm,2026-01-11
+1002,12000,deposit,bank,2026-01-05
+1002,-15000,withdrawal,mobile,2026-01-06
+1003,400,deposit,mobile,2026-01-20
+1003,-390,withdrawal,mobile,2026-01-20
+1004,50000,deposit,bank,2026-01-02
+1004,-49900,withdrawal,atm,2026-01-02
